@@ -44,12 +44,12 @@ public class Main {
         Dev devCeicao = new Dev();
         devCeicao.setNome("Ceicao");
         devCeicao.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Ceeh antes de progredir: " + devCeicao.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos por Ceição antes de progredir: " + devCeicao.getConteudosInscritos());
         devCeicao.progredir();
         devCeicao.progredir();
         System.out.println("---");
-        System.out.println("Conteúdos Inscritos Ceeh: " + devCeicao.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Ceeh: " + devCeicao.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos por Ceição: " + devCeicao.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos por Ceição: " + devCeicao.getConteudosConcluidos());
         System.out.println("XP: " + devCeicao.calcularTotalXp());
 
         System.out.println("----------------");
@@ -57,13 +57,13 @@ public class Main {
         Dev devPaulo = new Dev();
         devPaulo.setNome("Paulo");
         devPaulo.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Paulo antes de progredir: " + devPaulo.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos por Paulo antes de progredir: " + devPaulo.getConteudosInscritos());
         devPaulo.progredir();
         devPaulo.progredir();
         devPaulo.progredir();
         System.out.println("---");
-        System.out.println("Conteúdos Inscritos Paulo: " + devPaulo.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Paulo: " + devPaulo.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos por Paulo: " + devPaulo.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos por Paulo: " + devPaulo.getConteudosConcluidos());
         System.out.println("XP: " + devPaulo.calcularTotalXp());
 
         System.out.println("----------");
@@ -71,11 +71,25 @@ public class Main {
         Dev devMaria = new Dev();
         devMaria.setNome("Maria");
         devMaria.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Maria antes de progredir: " + devMaria.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos por Maria antes de progredir: " + devMaria.getConteudosInscritos());
         devMaria.progredir();
         System.out.println("---");
-        System.out.println("Conteúdos Inscritos Maria: " + devMaria.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Maria: " + devMaria.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos por Maria: " + devMaria.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos por Maria: " + devMaria.getConteudosConcluidos());
+        System.out.println("XP: " + devMaria.calcularTotalXp());
+
+        System.out.println("----------------");
+
+        Dev devLuisa = new Dev();
+        devLuisa.setNome("Luisa");
+        devLuisa.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos por Luisa antes de progredir: " + devLuisa.getConteudosInscritos());
+        devLuisa.progredir();
+        devLuisa.progredir();
+        devLuisa.progredir();
+        System.out.println("---");
+        System.out.println("Conteúdos Inscritos por Luisa: " + devLuisa.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos por Luisa: " + devLuisa.getConteudosConcluidos());
         System.out.println("XP: " + devMaria.calcularTotalXp());
 
         System.out.println("----------------");

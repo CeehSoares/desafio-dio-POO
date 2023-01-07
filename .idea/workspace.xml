@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9475c82-74d8-4e9c-b09f-0cf4ecfb70ef" name="Changes" comment="Adicionado as classes e finalizado.">
+    <list default="true" id="d9475c82-74d8-4e9c-b09f-0cf4ecfb70ef" name="Changes" comment="Adicionado noos conteúdos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672765839244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionado noos conteúdos.">
+      <created>1673134179363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673134179363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -80,6 +84,7 @@
     <MESSAGE value="add README.md" />
     <MESSAGE value="Adicionado duas classes Curso e Mentoria" />
     <MESSAGE value="Adicionado as classes e finalizado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado as classes e finalizado." />
+    <MESSAGE value="Adicionado noos conteúdos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado noos conteúdos." />
   </component>
 </project>
