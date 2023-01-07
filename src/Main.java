@@ -16,23 +16,19 @@ public class Main {
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
 
-      /* Exemplo de Polimofismo - Tudo que tem em conteudo tem em curso, mas tudo que tem
-         em curso não tem em conteudo.
-
+      /* Exemplo de Polimorfismo - Tudo que tem na classe Conteudo tem na classe Curso, mas tudo que tem
+         em Curso não tem em Conteudo. A mesma coisa com a classe Mentoria e ArrayList.
 
         Conteudo conteudo = new Curso();
         Conteudo conteudo = new Mentoria();
+        List<String> lista = new ArrayList<>();
 
-        List<String> palavras = new ArrayList<>();*/
+        */
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
-
-      /*  System.out.println(curso1);
-        System.out.println(curso2);
-        System.out.println(mentoria); */
 
 
         Bootcamp bootcamp = new Bootcamp();
@@ -43,32 +39,46 @@ public class Main {
         bootcamp.getConteudos().add(mentoria);
 
 
-        System.out.println("----------");
+        System.out.println("----------------");
+
         Dev devCeicao = new Dev();
         devCeicao.setNome("Ceicao");
         devCeicao.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Ceeh: " + devCeicao.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos Ceeh antes de progredir: " + devCeicao.getConteudosInscritos());
         devCeicao.progredir();
         devCeicao.progredir();
-        System.out.println("-");
+        System.out.println("---");
         System.out.println("Conteúdos Inscritos Ceeh: " + devCeicao.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Ceeh: " + devCeicao.getConteudosConcluidos());
         System.out.println("XP: " + devCeicao.calcularTotalXp());
 
+        System.out.println("----------------");
+
+        Dev devPaulo = new Dev();
+        devPaulo.setNome("Paulo");
+        devPaulo.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Paulo antes de progredir: " + devPaulo.getConteudosInscritos());
+        devPaulo.progredir();
+        devPaulo.progredir();
+        devPaulo.progredir();
+        System.out.println("---");
+        System.out.println("Conteúdos Inscritos Paulo: " + devPaulo.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos Paulo: " + devPaulo.getConteudosConcluidos());
+        System.out.println("XP: " + devPaulo.calcularTotalXp());
 
         System.out.println("----------");
 
-        Dev devJoao = new Dev();
-        devJoao.setNome("João");
-        devJoao.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos João: " + devJoao.getConteudosInscritos());
-        devJoao.progredir();
-        devJoao.progredir();
-        devJoao.progredir();
-        System.out.println("-");
-        System.out.println("Conteúdos Inscritos João: " + devJoao.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos João: " + devJoao.getConteudosConcluidos());
-        System.out.println("XP: " + devJoao.calcularTotalXp());
+        Dev devMaria = new Dev();
+        devMaria.setNome("Maria");
+        devMaria.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Maria antes de progredir: " + devMaria.getConteudosInscritos());
+        devMaria.progredir();
+        System.out.println("---");
+        System.out.println("Conteúdos Inscritos Maria: " + devMaria.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos Maria: " + devMaria.getConteudosConcluidos());
+        System.out.println("XP: " + devMaria.calcularTotalXp());
+
+        System.out.println("----------------");
 
 
     }
